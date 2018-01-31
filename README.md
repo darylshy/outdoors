@@ -1,5 +1,5 @@
 # outdoors
-Simple CSS Animations Repo
+Simple CSS Animations Repo; **No Javascript**
 # to run: 
 + npm install
 + gulp
