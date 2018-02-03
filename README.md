@@ -1,5 +1,5 @@
 # outdoors
-Simple CSS Animations Repo; 
+Advanced CSS Project; 
 + HTML5
 + CSS3
 + PostCSS
