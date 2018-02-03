@@ -6,6 +6,7 @@
                   $default-green-light,
                   $default-green-dark),
   url(../img/hero.jpg) top;
+  background-size: cover;
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
   position: relative;
 
