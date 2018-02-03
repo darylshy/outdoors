@@ -1,0 +1,10 @@
+@function column-width($num-cols, $span){
+  $num_gutters: $num-cols - 1;
+  $num_gutters_to_add: $span - 1;
+  $col_width: calc((100% - (#{$gutter-vertical} * #{$num_gutters}))/#{$num-cols});
+  @if $span == 1 {
+    @return $col_width;
+  }@else {
+    @return calc((#{$col_width} * #{$span}) + (#{$num_gutters_to_add} * #{$gutter-vertical}));
+  }
+}

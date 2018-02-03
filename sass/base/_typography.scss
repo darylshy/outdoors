@@ -1,0 +1,94 @@
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  /*font-size: 16px;*/
+  font-size: $default-font-size;
+  line-height: 1.7;
+  color: $charcoal-gray;
+  padding: 3rem;
+}
+
+.heading-primary {
+  color: #ffffff;
+  text-transform: uppercase;
+  backface-visibility: hidden;
+  margin-bottom: 6rem;
+  .heading-primary--main {
+    @include headerAnimation(block, 6rem, 400, 3.5rem, moveInLeft 1s ease-out);
+  }
+
+  .heading-primary--sub {
+    @include headerAnimation(block, 2rem, 700, 1.75rem, moveInRight 1s ease-out);
+  }
+}
+
+.heading-secondary {
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  background: linear-gradient(to right, $default-green-light, $default-green-dark);
+  display: inline-block;
+  -webkit-background-clip: text;
+  color: transparent;
+  letter-spacing:2px;
+  transition: all .5s;
+
+  &:hover{
+    transform: skewY(-7deg) skewX(15deg) scale(1.1);
+    text-shadow: .5rem 1rem 1rem $light-shadow;
+  }
+}
+
+.heading-tertiary {
+  color: $charcoal-gray;
+  font-size: $default-font-size;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.paragraph {
+  color:$charcoal-gray;
+  font-size: $default-font-size;
+
+  &:not(:last-child) {
+    margin-bottom: 3rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

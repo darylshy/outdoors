@@ -43,6 +43,15 @@ gulp.task('sass', function () {
 gulp.task('sass:watch', function () {
     gulp.watch('./sass/**/*.scss', ['sass']);
 });
+gulp.task('html:watch', function () {
+    gulp.watch('./view/**/*.html',['html']);
+});
+
+gulp.task('html', function () {
+    gulp.src('./view/*.html')
+        .pipe(gulp.dest('./'))
+        .pipe(connect.reload());
+});
 
 gulp.task('connect', function () {
     connect.server({
@@ -50,4 +59,4 @@ gulp.task('connect', function () {
     })
 });
 
-gulp.task('default',['sass', 'sass:watch', 'connect']);
+gulp.task('default',['sass', 'html','sass:watch', 'html:watch', 'connect']);

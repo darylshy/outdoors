@@ -1,0 +1,23 @@
+.header {
+  height: 95vh;
+  background-size: cover;
+  background: linear-gradient(
+                  to right bottom,
+                  $default-green-light,
+                  $default-green-dark),
+  url(../img/hero.jpg) top;
+  clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+  position: relative;
+
+  &__logo-box {
+    @include posTopLft(absolute, 4rem, 4rem);
+    .header__logo {
+      height: 3.5rem;
+    }
+  }
+  .header__text-box {
+    @include posTopLft(absolute, 40%, 50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+}
