@@ -2,6 +2,9 @@
   text-align: center;
 }
 .u-margin-bottom-small {
+   margin-bottom: $margin-bottom-small;
+}
+.u-margin-bottom-small-custom {
   margin-bottom: $margin-bottom-small - .5rem;
 }
 .u-margin-bottom-medium {
@@ -12,4 +15,20 @@
 }
 .u-margin-bottom-xlarge {
   margin-bottom: $margin-bottom-xlarge;
+}
+
+.u-margin-top-small {
+  margin-top: $margin-top-small;
+}
+.u-margin-top-medium {
+  margin-top: $margin-top-medium;
+}
+.u-margin-top-large {
+  margin-top: $margin-top-large;
+}
+.u-margin-top-large-custom {
+  margin-top: $margin-top-large + 2rem;
+}
+.u-margin-top-xlarge {
+  margin-top: $margin-top-xlarge;
 }

@@ -1,9 +1,27 @@
 //Colors
 $dark-shadow: rgba(0, 0, 0, .4);
 $light-shadow: rgba(0, 0, 0, .2);
-$charcoal-gray: #777;
-$default-green-dark: rgba(85, 197, 122, 0.80);
-$default-green-light: rgba(126, 213, 111, 0.8);
+
+$color-grey-light-1: #f7f7f7;
+$color-grey-light-2: #eee;
+
+$color-grey-dark: #777;
+
+$color-primary: #55c57a;
+$color-primary-light: #7ed56f;
+$color-primary-dark: #28b485;
+
+$color-primary-light-rgba: rgba($color-primary-light, 0.80);
+$color-primary-dark-rgba: rgba($color-primary-dark, 0.8);
+
+$color-secondary-light: #ffb900;
+$color-secondary-dark: #ff7730;
+
+$color-tertiary-light: #2998ff;
+$color-tertiary-dark: #5643fa;
+
+
+
 $color-grey-light-1: #f7f7f7;
 
 //Font Sizes
@@ -20,3 +38,9 @@ $margin-bottom-small: 2rem;
 $margin-bottom-medium: 4rem;
 $margin-bottom-large: 8rem;
 $margin-bottom-xlarge: 16rem;
+
+$margin-top-xsmall: 1rem;
+$margin-top-small: 2rem;
+$margin-top-medium: 4rem;
+$margin-top-large: 8rem;
+$margin-top-xlarge: 16rem;

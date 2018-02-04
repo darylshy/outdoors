@@ -25,7 +25,7 @@
       left:20%;
     }
     &:hover{
-      outline: 1.5rem solid $default-green-dark;
+      outline: 1.5rem solid $color-primary-light-rgba;
       z-index: 1;
       transform: scale(1.05) translatey(.5rem);
       box-shadow: 0 2.5rem 4rem rgba(0,0,0,.6);

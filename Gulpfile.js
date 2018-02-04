@@ -6,6 +6,7 @@ var gulp = require('gulp'),
     autoprefixer = require('autoprefixer'),
     connect = require('gulp-connect'),
     oldie = require('oldie'),
+    cssbeautify = require('gulp-cssbeautify'),
     clean = require('postcss-clean');
 
 gulp.task('sass', function () {
@@ -14,12 +15,10 @@ gulp.task('sass', function () {
     ];
 
     var plugins2 = [
-        autoprefixer(),
         clean()
     ];
 
     var plugins3Oldie = [
-        autoprefixer(),
         oldie()
     ];
 
@@ -36,6 +35,9 @@ gulp.task('sass', function () {
         .pipe(gulp.dest('./dest'))
         .pipe(postcss(plugins3Oldie))
         .pipe(rename('style.ie8.min.css'))
+        .pipe(gulp.dest('./dest'))
+        .pipe(cssbeautify())
+        .pipe(rename('style.ie8.css'))
         .pipe(gulp.dest('./dest'))
         .pipe(connect.reload());
 });

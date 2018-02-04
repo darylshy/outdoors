@@ -12,7 +12,9 @@
   "devDependencies": {
     "autoprefixer": "^7.2.5",
     "gulp": "^3.9.1",
+    "gulp-beautify": "^2.0.1",
     "gulp-connect": "^5.2.0",
+    "gulp-cssbeautify": "^1.0.0",
     "gulp-livereload": "^3.8.1",
     "gulp-postcss": "^7.0.1",
     "gulp-rename": "^1.2.2",
