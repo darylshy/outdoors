@@ -17,7 +17,7 @@
     left: 0;
     width: 100%;
     backface-visibility: hidden;
-    border-radius: 3px;
+    border-radius: $border-radii-small;
     overflow: hidden;
     box-shadow: 0 1.5rem 4rem lighten($light-shadow, 20%);
     text-transform: uppercase;
@@ -107,7 +107,7 @@
   }
 
   &__details {
-    color: $color-grey-dark;
+    color: $color-grey-dark-2;
     padding: 3rem;
     ul {
       list-style:none;

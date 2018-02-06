@@ -5,7 +5,10 @@ $light-shadow: rgba(0, 0, 0, .2);
 $color-grey-light-1: #f7f7f7;
 $color-grey-light-2: #eee;
 
-$color-grey-dark: #777;
+$color-grey-dark-1: #999;
+$color-grey-dark-2: #777;
+$color-grey-dark-3: #333;
+
 
 $color-primary: #55c57a;
 $color-primary-light: #7ed56f;
@@ -44,3 +47,11 @@ $margin-top-small: 2rem;
 $margin-top-medium: 4rem;
 $margin-top-large: 8rem;
 $margin-top-xlarge: 16rem;
+
+//Sizes
+$border-radii-small: 3px;
+$border-radii-medium: .5rem;
+$border-radii-large: 1rem;
+$border-radii-x-large: 2rem;
+$border-radii-xx-large: 5rem;
+$border-radii-xxx-large: 10rem;

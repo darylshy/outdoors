@@ -191,7 +191,7 @@
         </div>
     </section>
 
-    <div class="section-stories">
+    <section class="section-stories">
         <div class="bg-video">
             <video class="bg-video__content" autoplay muted loop>
                 <source src="img/video.mp4" type="video/mp4">
@@ -231,8 +231,80 @@
                 <span class="fa fa-arrow-circle-right"></span>
             </a>
         </div>
-    </div>
+    </section>
+    <section class="section-book">
+        <div class="row">
+            <div class="book">
+                <div class="book__form">
+                    <form action="#" class="form">
+                        <div class="u-margin-bottom-medium">
+                            <h2 class="heading-secondary">
+                                Start booking now
+                            </h2>
+                        </div>
+                        <div class="form__group">
+                            <input type="text" class="form__input" placeholder="Full Name" id="name" required>
+                            <label for="name" class="form__label">Full Name</label>
+                        </div>
+                        <div class="form__group">
+                            <input type="email" class="form__input" placeholder="Email Address" id="email" required>
+                            <label for="email" class="form__label">Email Address</label>
+                        </div>
+
+                        <div class="form__group">
+                            <div class="form__radio-group">
+                                <input type="radio" class="form__radio-input" id="small" name="group_size">
+                                <label class="form__radio-label" for="small">
+                                    <span class="form__radio-button"></span>
+                                    Small tour group
+                                </label>
+                            </div>
+                            <div class="form__radio-group">
+                                <input type="radio" class="form__radio-input" id="large" name="group_size">
+                                <label class="form__radio-label" for="large">
+                                    <span class="form__radio-button"></span>
+                                    Large tour group
+                                </label>
+                            </div>
+                        </div>
+                        <div class="form__group u-margin-top-medium">
+                            <button class="btn btn--green">Next Step<span class="fa fa-arrow-circle-right"></span>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
 </main>
+<footer class="footer">
+    <div class="footer__logo-box u-margin-bottom-large">
+        <img src="img/logo-green-2x.png" alt="Full logo" class="footer__logo">
+        <div class="row">
+            <div class="col-1-of-2">
+                <div class="footer__navigation">
+                    <ul class="footer_list">
+                        <li class="footer__item"><a href="#" class="footer__link">Company</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Contact Us</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Careers</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Privacy Policy</a></li>
+                        <li class="footer__item"><a href="#" class="footer__link">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-1-of-2">
+                <p class="footer__copyright">
+                    Built by
+                    <a href="#" class="footer__link">Daryl Shy</a>
+                    for learning purposes
+                    <a href="#" class="footer__link">Advanced CSS and SASS</a>
+                    <span>Copyright &copy;</span>
+                    <span>Authored by Jonas Schmedtmann</span>
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
 
 
 </body>

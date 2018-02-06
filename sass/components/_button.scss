@@ -1,17 +1,23 @@
 .btn {
+  &,
   &:link,
   &:visited {
     text-transform: uppercase;
     text-decoration: none;
     padding: 1.5rem 4rem;
     display: inline-block;
-    border-radius: 10rem;
+    border-radius: $border-radii-xxx-large;
     transition: all .2s;
     backface-visibility: hidden;
     position: relative;
+    font-size:$default-font-size;
+
+    //Change for the <button> element
+    border: none;
+    cursor: pointer;
     &.btn--white {
       background-color: white;
-      color: $color-grey-dark;
+      color: $color-grey-dark-2;
       &::after {
         background-color: white;
       }
@@ -24,34 +30,36 @@
       }
     }
 
-    &.btn:hover {
+    &:hover {
       transform: translateY(-.3rem);
       box-shadow: 0 1rem 2rem $light-shadow;
     }
 
-    &.btn:active {
+    &:active,
+    &:focus {
+      outline: none;
       transform: translateY(-.1rem);
       box-shadow: 0 .5rem 1rem $dark-shadow;
     }
 
-    &.btn::after {
+    &::after {
       content: '';
       display: inline-block;
       width: 100%;
       height: 100%;
-      border-radius: 10rem;
+      border-radius: $border-radii-xxx-large;
       @include posTopLft(absolute, 0, 0);
       //background-color: #fff;
       z-index: -2;
       transition: all .4s;
     }
 
-    &.btn:hover::after {
+    &:hover::after {
       transform: scaleX(1.4) scaleY(1.6);
       opacity: 0;
     }
 
-    &.btn--animated {
+    &--animated {
       animation: moveInBottom .5s ease-out .5s;
       animation-fill-mode: backwards;
     }

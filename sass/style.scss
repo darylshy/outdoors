@@ -16,10 +16,12 @@
 @import "components/card";
 @import "components/story";
 @import "components/bg-video";
+@import "components/_form.scss";
 
 //layouts
 @import "layout/header";
 @import "layout/grid";
+@import "layout/footer";
 
 //pages
 @import 'pages/home';

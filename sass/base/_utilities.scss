@@ -1,34 +1,34 @@
 .u-center-text {
-  text-align: center;
+  text-align: center !important;
 }
 .u-margin-bottom-small {
-   margin-bottom: $margin-bottom-small;
+   margin-bottom: $margin-bottom-small !important;
 }
 .u-margin-bottom-small-custom {
-  margin-bottom: $margin-bottom-small - .5rem;
+  margin-bottom: $margin-bottom-small - .5rem !important;
 }
 .u-margin-bottom-medium {
-  margin-bottom: $margin-bottom-medium;
+  margin-bottom: $margin-bottom-medium !important;
 }
 .u-margin-bottom-large {
-  margin-bottom: $margin-bottom-large;
+  margin-bottom: $margin-bottom-large !important;
 }
 .u-margin-bottom-xlarge {
-  margin-bottom: $margin-bottom-xlarge;
+  margin-bottom: $margin-bottom-xlarge !important;
 }
 
 .u-margin-top-small {
-  margin-top: $margin-top-small;
+  margin-top: $margin-top-small !important;
 }
 .u-margin-top-medium {
-  margin-top: $margin-top-medium;
+  margin-top: $margin-top-medium !important;
 }
 .u-margin-top-large {
-  margin-top: $margin-top-large;
+  margin-top: $margin-top-large !important;
 }
 .u-margin-top-large-custom {
-  margin-top: $margin-top-large + 2rem;
+  margin-top: $margin-top-large + 2rem !important;
 }
 .u-margin-top-xlarge {
-  margin-top: $margin-top-xlarge;
+  margin-top: $margin-top-xlarge !important;
 }
