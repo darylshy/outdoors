@@ -10,7 +10,7 @@
     font-family:inherit;
     color: inherit;
     padding: 1.5rem 2rem;
-    border-radius:$border-radii-small;
+    border-radius:$x-small;
     background-color: rgba(white,.5);
     border:none;
     border-bottom:2px solid transparent;
@@ -74,10 +74,7 @@
       content: '';
       display: block;
       border-radius:50%;
-      position: absolute;
-      top: 50%;
-      left:50%;
-      transform: translate(-50%,-50%);
+      @include absCenter;
       background-color: $color-primary;
       opacity: 0;
       height:1.3rem;

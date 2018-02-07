@@ -20,13 +20,9 @@
   animation: $anim;
 }
 
-//@mixin grid-cols($num_cols, $bg_color, $span){
-//  color: initial;
-//  padding-left:10px;
-//  width: column-width($num_cols, $span);
-//  background-color:$bg_color;
-//  float: left;
-//  &:not(:last-child){
-//    margin-right: $gutter-vertical;
-//  }
-//}
+@mixin absCenter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
